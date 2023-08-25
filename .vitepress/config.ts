@@ -7,7 +7,6 @@ export default defineConfig({
   title: '网站title',
   lang: 'zh-CN',
   lastUpdated: true,
-  outDir: 'docs',
   head: [['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css', crossorigin: '' }]],
   themeConfig: {
     nav: nav(),
